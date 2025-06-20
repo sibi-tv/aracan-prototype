@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face { 
+  font-family: 'macherie'; 
+  src: url('/src/assets/macherie.otf') format('opentype'); 
+  font-weight: normal; 
+  font-style: normal; 
+} 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
